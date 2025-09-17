@@ -39,7 +39,7 @@ def fetch_posts():
 
 app = Flask(__name__)
 app.config.from_object(Config)
-app.secret_key = app.config['SECRET_KEY']
+app.secret_key = app.config['SECRET KEY']
 
 @app.route('/upvote', methods=['POST'])
 def upvote():
@@ -81,7 +81,7 @@ def login_required(f):
 def admin_required(f):
     def decorated_function(*args, **kwargs):
         if not session.get('is_admin'):
-            return redirect(url_for('index'))
+            return redirect(url_for('indexed'))
         return f(*args, **kwargs)
     decorated_function.__name__ = f.__name__
     return decorated_function

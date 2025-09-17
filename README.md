@@ -140,11 +140,14 @@ python app.py
 - All user sessions, authentication, and upvotes are securely managed.
 
 ---
+**Challenge Guideline:** [Link](https://sntry.cc/morphx_chall)
 
+---
 Looking for more info?  
 - **Supabase Docs:** [https://supabase.com/docs](https://supabase.com/docs)
 - **Flask Docs:** [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
 
+---
 Happy hacking! 😄💡
 
 ---

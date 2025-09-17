@@ -89,6 +89,8 @@ Handles resource upvotes & prevents duplicates per user
 - `comment_text` (Text)
 - `created_at` (Timestamp)
 
+**Schema SQL:** [Link](https://sntry.cc/morphx_schema)
+
 ---
 
 ## **Running the Application Locally**
